@@ -1,5 +1,5 @@
 {
-  "name": "bazarirank",
+  "name": "climbboard",
   "version": "1.0.0",
   "private": true,
   "description": "Full-stack real-time leaderboard — React + Express + Redis + Socket.IO",

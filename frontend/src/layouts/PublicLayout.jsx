@@ -10,7 +10,7 @@ export default function PublicLayout() {
       <header className="navbar navbar--public">
         <div className="navbar__inner">
           <Link to="/" className="navbar__brand">
-            <span className="navbar__logo">🏆</span> BazariRank
+            <span className="navbar__logo">🏆</span> Climbboard
           </Link>
           <nav className="navbar__nav">
             {pathname !== '/login' && !user && (

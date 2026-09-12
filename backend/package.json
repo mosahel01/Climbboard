@@ -1,7 +1,7 @@
 {
-  "name": "bazarirank-backend",
+  "name": "climbboard-backend",
   "version": "1.0.0",
-  "description": "BazariRank backend - real-time leaderboards powered by Redis Sorted Sets",
+  "description": "Climbboard backend - real-time leaderboards powered by Redis Sorted Sets",
   "type": "module",
   "main": "src/server.js",
   "engines": {

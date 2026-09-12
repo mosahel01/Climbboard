@@ -27,7 +27,7 @@ export default function Sidebar({ open, onClose }) {
       <div className={cx('sidebar-overlay', open && 'sidebar-overlay--open')} onClick={onClose} />
       <aside className={cx('sidebar', open && 'sidebar--open')}>
         <div className="sidebar__header">
-          <span className="sidebar__brand">🏆 BazariRank</span>
+          <span className="sidebar__brand">🏆 Climbboard</span>
           <button className="sidebar__close" onClick={onClose} aria-label="Close sidebar">
             ×
           </button>

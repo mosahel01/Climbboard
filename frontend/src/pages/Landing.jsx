@@ -46,7 +46,7 @@ export default function Landing() {
           <span className="hero__pulse" /> Live leaderboards · powered by Redis Sorted Sets
         </div>
         <h1>
-          Compete fast. Climb the <span className="hero__gradient">BazariRank</span>.
+          Compete fast. Climb the <span className="hero__gradient">Climbboard</span>.
         </h1>
         <p className="hero__lead">
           Play rapid-fire games, submit scores, and watch the leaderboards shift in real time as
@@ -183,7 +183,7 @@ export default function Landing() {
           padding: '40px 20px 30px',
         }}
       >
-        BazariRank demo · React + Express + Redis Sorted Sets + Socket.IO
+        Climbboard demo · React + Express + Redis Sorted Sets + Socket.IO
       </footer>
     </div>
   );

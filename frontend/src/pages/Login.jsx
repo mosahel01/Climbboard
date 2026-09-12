@@ -80,7 +80,7 @@ export default function Login() {
           </Button>
         </form>
         <p className="auth-card__foot">
-          New to BazariRank? <Link to="/register">Create an account</Link>
+          New to Climbboard? <Link to="/register">Create an account</Link>
         </p>
         <div className="demo-box">
           Demo account

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const TOKEN_KEY = 'bazarirank_token';
+const TOKEN_KEY = 'climbboard_token';
 
 export const tokenStore = {
   get() {

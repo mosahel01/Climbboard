@@ -26,7 +26,7 @@ async function start() {
   app.set('io', io);
 
   server.listen(env.port, () => {
-    console.log(`[server] BazariRank API listening on http://localhost:${env.port}`);
+    console.log(`[server] Climbboard API listening on http://localhost:${env.port}`);
     console.log(`[socket] Socket.IO connected clients allowed from ${env.clientUrl}`);
     if (!isProduction) {
       console.log('[server] seeding tip: run `npm run seed` in backend/ to populate demo data.');

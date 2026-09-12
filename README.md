@@ -1,4 +1,4 @@
-# BazariRank
+# Climbboard
 
 A full-stack real-time leaderboard app. Players submit scores, personal bests are ranked with Redis and leaderboards shift live over Socket.IO.
 

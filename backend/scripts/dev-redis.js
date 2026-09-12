@@ -23,7 +23,7 @@ const candidates = [
 const argv = process.argv.slice(2);
 const stop = argv.includes('--stop');
 
-const pidFile = path.join(os.tmpdir(), 'bazarirank-redis.pid');
+const pidFile = path.join(os.tmpdir(), 'climbboard-redis.pid');
 
 function stopRedis() {
   if (fs.existsSync(pidFile)) {

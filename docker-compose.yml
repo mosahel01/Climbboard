@@ -1,7 +1,7 @@
 services:
   redis:
     image: redis:7-alpine
-    container_name: bazarirank-redis
+    container_name: climbboard-redis
     ports:
       - "6379:6379"
     volumes:
@@ -10,7 +10,7 @@ services:
 
   backend:
     build: ./backend
-    container_name: bazarirank-backend
+    container_name: climbboard-backend
     ports:
       - "5000:5000"
     environment:

@@ -52,7 +52,7 @@ export default function Dashboard() {
       <div className="page-head">
         <div>
           <h1 className="page-head__title">Hey, {data.user.username} 👋</h1>
-          <p className="page-head__subtitle">Your market position across BazariRank — live.</p>
+          <p className="page-head__subtitle">Your market position across Climbboard — live.</p>
         </div>
       </div>
 
