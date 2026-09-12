@@ -2,6 +2,16 @@
 
 A full-stack real-time leaderboard app. Players submit scores, personal bests are ranked with Redis and leaderboards shift live over Socket.IO.
 
+## Features
+
+- Real-time per-game and global leaderboards with rank-movement indicators.
+- 7 playable games with Easy / Normal / Hard difficulty modes.
+- Live activity feed with a Following toggle.
+- Achievement badges with progress tracking.
+- Follow / unfollow players and public profiles.
+- Admin console with player management (promote, ban, delete).
+- Reports, score history, JWT auth with bcrypt.
+
 ## Quick start
 
 Requires Node 18+ and Redis on port 6379.
