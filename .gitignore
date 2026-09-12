@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Local Redis build fallback
+.tools/
+
+# Logs
+*.log
+nohup.out
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Editor / AI assistant config files
+AGENTS.md
+*.cursorrules
+.cursor/
+.github/copilot-instructions.md
+.claude/
+opencode.json*
+opencode.jsonc
