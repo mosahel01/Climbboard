@@ -1,0 +1,34 @@
+{
+  "name": "bazarirank-backend",
+  "version": "1.0.0",
+  "description": "BazariRank backend - real-time leaderboards powered by Redis Sorted Sets",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "nodemon --watch src src/server.js",
+    "start": "node src/server.js",
+    "redis": "node scripts/dev-redis.js",
+    "redis:stop": "node scripts/dev-redis.js --stop",
+    "seed": "node scripts/seed.js",
+    "seed:reset": "node scripts/seed.js --reset",
+    "test": "node --test --test-concurrency=1 tests/"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "helmet": "^7.1.0",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  }
+}
